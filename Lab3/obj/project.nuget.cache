@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "KtxLVVWdMJ8IUgO96xmEO4RqcyDA+IU8w7j8bB1WoNEpoHGrhfcRbfyoYpOHkWyXKre08EMOd6TXhppeVSK4Nw==",
+  "dgSpecHash": "UiELSQdxxtKTWjQXohRAZeNGWBqCc5wejUdiyweLR4LR4cvs4QmBF9iVkedfjVd9Y6pwJYLMWaeyJPNzcVLwtA==",
   "success": true,
-  "projectFilePath": "D:\\Vorking\\Labs\\Lab2\\Lab3\\Lab3.csproj",
+  "projectFilePath": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\Lab3\\Lab3.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Микола\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\Микола\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",

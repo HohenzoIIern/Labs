@@ -5721,11 +5721,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Vorking\\Labs\\lb2\\test1\\test1.csproj",
+      "projectUniqueName": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\test1\\test1.csproj",
       "projectName": "test1",
-      "projectPath": "D:\\Vorking\\Labs\\lb2\\test1\\test1.csproj",
+      "projectPath": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\test1\\test1.csproj",
       "packagesPath": "C:\\Users\\Микола\\.nuget\\packages\\",
-      "outputPath": "D:\\Vorking\\Labs\\lb2\\test1\\obj\\",
+      "outputPath": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\test1\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Микола\\AppData\\Roaming\\NuGet\\NuGet.Config",

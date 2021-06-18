@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Vorking\\Labs\\Lab2\\Lab3\\Lab3.csproj": {}
+    "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\Lab3\\Lab3.csproj": {}
   },
   "projects": {
-    "D:\\Vorking\\Labs\\Lab2\\Lab3\\Lab3.csproj": {
+    "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\Lab3\\Lab3.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Vorking\\Labs\\Lab2\\Lab3\\Lab3.csproj",
+        "projectUniqueName": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\Lab3\\Lab3.csproj",
         "projectName": "Lab3",
-        "projectPath": "D:\\Vorking\\Labs\\Lab2\\Lab3\\Lab3.csproj",
+        "projectPath": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\Lab3\\Lab3.csproj",
         "packagesPath": "C:\\Users\\Микола\\.nuget\\packages\\",
-        "outputPath": "D:\\Vorking\\Labs\\Lab2\\Lab3\\obj\\",
+        "outputPath": "D:\\Vorking\\JS\\Gith\\Labs\\Labs\\Lab3\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Микола\\AppData\\Roaming\\NuGet\\NuGet.Config",

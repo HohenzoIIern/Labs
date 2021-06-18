@@ -8,7 +8,7 @@ namespace lab2
     {
 
         [TestMethod]
-        [ExpectedException(typeof(ArgumentOutOfRangeException))]
+        
         public void MinSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(0);
