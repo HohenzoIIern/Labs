@@ -25,19 +25,19 @@ namespace Lab3
         }
 
         [TestMethod]
-        public void Route_1_2_3_4_6_7_GetHash_Ad_Null()
+        public void Route_1_2_3_4_6_7_GetHash()
         {
             Assert.IsNull(PasswordHasher.GetHash(null, "Æasdsa⛐⛐", null));
         }
 
         [TestMethod]
-        public void Route_1_2_3_4_6_8_10_GetHash_Ad_Null()
+        public void Route_1_2_3_4_6_8_10_GetHash()
         {
             Assert.IsNotNull(PasswordHasher.GetHash("1111", "Æasdsa⛐⛐", null));
         }
 
         [TestMethod]
-        public void Route_1_2_3_4_6_8_9_10_GetHash_Ad_Null()
+        public void Route_1_2_3_4_6_8_9_10_GetHash()
         {
             Assert.IsNotNull(PasswordHasher.GetHash("Æasdsa⛐⛐", "Æasdsa⛐⛐", null));
         }
@@ -61,19 +61,19 @@ namespace Lab3
         }
 
         [TestMethod]
-        public void Route_1_2_4_6_7_GetHash_Ad_Null()
+        public void Route_1_2_4_6_7_GetHash()
         {
             Assert.IsNull(PasswordHasher.GetHash(null, "1111", null));
         }
 
         [TestMethod]
-        public void Route_1_2_4_6_8_10_GetHash_Ad_Null()
+        public void Route_1_2_4_6_8_10_GetHash()
         {
             Assert.IsNotNull(PasswordHasher.GetHash("1111", "1111", null));
         }
 
         [TestMethod]
-        public void Route_1_2_4_6_8_9_10_GetHash_Ad_Null()
+        public void Route_1_2_4_6_8_9_10_GetHash()
         {
             Assert.IsNotNull(PasswordHasher.GetHash("Æasdsa⛐⛐", "1111", null));
         }
@@ -97,19 +97,19 @@ namespace Lab3
         }
 
         [TestMethod]
-        public void Route_1_6_7_GetHash_Ad_Null()
+        public void Route_1_6_7_GetHash()
         {
             Assert.IsNull(PasswordHasher.GetHash(null, null, null));
         }
 
         [TestMethod]
-        public void Route_1_6_8_10_GetHash_Ad_Null()
+        public void Route_1_6_8_10_GetHash()
         {
             Assert.IsNotNull(PasswordHasher.GetHash("1111", null, null));
         }
 
         [TestMethod]
-        public void Route_1_6_8_9_10_GetHash_Ad_Null()
+        public void Route_1_6_8_9_10_GetHash()
         {
             Assert.IsNotNull(PasswordHasher.GetHash("Æasdsa⛐⛐", null, null));
         }
