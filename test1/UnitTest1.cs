@@ -8,39 +8,39 @@ namespace lab2
     {
 
         [TestMethod]
-        public void OnMinSize()
+        public void ConstructorOnMinSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(2);
         }
 
         [TestMethod]
-        public void OverMinSize()
+        public void ConstructorOverMinSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(3);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void UnderMinSize()
+        public void ConstructorUnderMinSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(1);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
-        public void OverMaxSize()
+        public void ConstructorOverMaxSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(17179868705);
         }
 
         [TestMethod]
-        public void UnderMaxSize()
+        public void ConstructorUnderMaxSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(17179868703);
         }
 
         [TestMethod]
-        public void OnMaxSize()
+        public void ConstructorOnMaxSize()
         {
             new IIG.BinaryFlag.MultipleBinaryFlag(17179868704);
         }
