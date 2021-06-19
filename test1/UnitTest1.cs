@@ -6,43 +6,44 @@ namespace lab2
     [TestClass]
     public class BinaryFlagTesting
     {
-
+        ulong minSize = 2;
+        ulong maxSize = 17179868704;
         [TestMethod]
         public void ConstructorOnMinSize()
         {
-            new IIG.BinaryFlag.MultipleBinaryFlag(2);
+            new IIG.BinaryFlag.MultipleBinaryFlag(minSize);
         }
 
         [TestMethod]
         public void ConstructorOverMinSize()
         {
-            new IIG.BinaryFlag.MultipleBinaryFlag(3);
+            new IIG.BinaryFlag.MultipleBinaryFlag(minSize+1);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void ConstructorUnderMinSize()
         {
-            new IIG.BinaryFlag.MultipleBinaryFlag(1);
+            new IIG.BinaryFlag.MultipleBinaryFlag(minSize-1);
         }
 
         [TestMethod]
         [ExpectedException(typeof(ArgumentOutOfRangeException))]
         public void ConstructorOverMaxSize()
         {
-            new IIG.BinaryFlag.MultipleBinaryFlag(17179868705);
+            new IIG.BinaryFlag.MultipleBinaryFlag(maxSize+1);
         }
 
         [TestMethod]
         public void ConstructorUnderMaxSize()
         {
-            new IIG.BinaryFlag.MultipleBinaryFlag(17179868703);
+            new IIG.BinaryFlag.MultipleBinaryFlag(maxSize-1);
         }
 
         [TestMethod]
         public void ConstructorOnMaxSize()
         {
-            new IIG.BinaryFlag.MultipleBinaryFlag(17179868704);
+            new IIG.BinaryFlag.MultipleBinaryFlag(maxSize);
         }
 
         [TestMethod]
